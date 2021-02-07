@@ -10,19 +10,19 @@ Using statistics is one of the simplest methods for identifying the main keyword
 	Sklearn
 	Glob
 
-The statical approach used for the machine learning model is explain below;
+	The statical approach used for the machine learning model is explain below;
 There are different types of statistical approaches, including word frequency, word collocations and co-occurrences, TF-IDF (short for term frequency–inverse document frequency).
 
-Word Frequency
+	Word Frequency
 Word frequency consists of listing the words and phrases that repeat the most within a text. This can be useful for a myriad of purposes, from identifying recurrent terms in a set of product reviews, to finding out what are the most common issues in customer support interactions.
 However, word frequency approaches consider documents as a mere ‘bag of words’, leaving aside crucial aspects related to the meaning, structure, grammar, and sequence of words. Synonyms, for example, can’t be detected by this keyword extraction method, dismissing very valuable information.
 
-Word Collocations and Co-occurrences
+	Word Collocations and Co-occurrences
 Also known as N-gram statistics, word collocations and co-occurrences help understand the semantic structure of a text and count separate words as one.
 Collocations are words that frequently go together. The most common types of collocations are bi-grams (two terms that appear adjacently, like ‘customer service’, ‘video calls’ or ‘email notification’) and tri-grams (a group of three words, like ‘easy to use’ or ‘social media channels’).
 Co-occurrences, on the other hand, refer to words that tend to co-occur in the same corpus. They don’t necessarily have to be adjacent, but they do have a semantic proximity.
 
-TF-IDF
+	TF-IDF
 TF-IDF stands for term frequency–inverse document frequency, a formula that measures how important a word is to a document in a collection of documents.
 This metric calculates the number of times a word appears in a text (term frequency) and compares it with the inverse document frequency (how rare or common that word is in the entire data set).
 Multiplying these two quantities provides the TF-IDF score of a word in a document. The higher the score is, the more relevant the word is to the document.
