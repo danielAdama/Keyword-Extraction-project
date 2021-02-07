@@ -2,13 +2,13 @@
 Extracting tags simplifies the process of identifying inside unstructured text relevant terms and phrases. This involves emails, updates on social media, chat conversations, and all other data forms that are not structured in any predefined manner. The technique used for automated tag extraction is a statistical approach Simple Statistical Approaches with machine learning.
 Using statistics is one of the simplest methods for identifying the main keywords and key phrases within a text.
 
-#Packages used are:
-#Pandas
-#OS
-#Nltk
-#Re
-#Sklearn
-#Glob
+	#Packages used are:
+	#Pandas
+	#OS
+	#Nltk
+	#Re
+	#Sklearn
+	#Glob
 
 The statical approach used for the machine learning model is explain below;
 There are different types of statistical approaches, including word frequency, word collocations and co-occurrences, TF-IDF (short for term frequency–inverse document frequency).
